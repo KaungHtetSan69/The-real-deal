@@ -1,0 +1,296 @@
+{%load static%}
+
+<!DOCTYPE html>
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]><html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]><html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+    <title>CD's Services</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width">
+    <!-- 
+    Stone Template
+    http://www.templatemo.com/preview/templatemo_452_stone
+    -->
+    <!-- Bootstrap Stylesheet -->
+    <link rel="stylesheet" href="{% static 'website/css/bootstrap.min.css' %}">
+    <link rel="icon" href="{% static 'website/images/Logobg.png' %}">
+    
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="{% static 'website/css/font-awesome.min.css' %}">
+    
+    <!-- Normailize Stylesheet -->
+    <link rel="stylesheet" href="{% static 'website/css/normalize.min.css' %}">
+
+    <!-- Main Styles -->
+    <link rel="stylesheet" href="{% static 'website/css/templatemo-style.css' %}">
+
+    <script src="{% static 'website/js/vendor/modernizr-2.6.2.min.js'%}"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-200808047-1">
+</script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-200808047-1');
+</script>
+
+</head>
+<body style="background-color: black;">
+    <div class="loader-wrapper1">
+      <span class="loader"><span class="loader-inner"></span></span>
+    </div>
+    <script>
+        $(window).on("load",function(){
+          $(".loader-wrapper1").fadeOut("slow");
+        });
+    </script>
+    <!--[if lt IE 7]>
+    <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+    <![endif]-->
+
+    <!-- HEADER -->
+    <div class="site-header">
+        <div class="container">
+            <div class="row">
+                <nav class="navbar navbar-default navbar-static-top">
+                    <div class="navbar-header">
+                        <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#main-menu">
+                            <span class="sr-only">Toggle navigation</span>
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <a class="navbar-brand" href="index.html">CD</a>
+                    </div>
+                    <div class="collapse navbar-collapse" id="main-menu">
+                        <ul class="nav navbar-nav navbar-right">
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="about.html">About</a></li>
+                            <li><a href="services.html">Services</a></li>
+                           <li><a href="gallery.html">Gallery</a></li>
+
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                    </div>
+                </nav>         
+            </div>
+        </div>
+    </div> <!-- .site-header -->
+
+
+    <div class="page-h">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <h3>Services</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    
+
+    <div class="filter">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="products" style="margin-top:20px">
+        <div class="container" style="background:url('{% static 'website/images/gold2.jpg' %}'); border-radius:50px; padding:50px 100px 0px;">
+            <div class="row">
+                <div id="Grid">
+                     <div class="mix category-1 col-md-3 col-sm-6">
+                    <div class="thumb-p">
+                        <img src="{% static 'website/images/veneer.png' %}" alt="">
+                        <div class="overlay-p">
+                            <a href="{% static 'website/images/veneer.png' %}" data-rel="lightbox"><i class="fa fa-plus"></i></a>
+                        </div>
+                    </div>
+                    <div class="content-p">
+                        <h4>Veneer</br>
+                        <span>Coating teeth to prevent damage</span></h4>
+                    </div>
+                </div>
+
+                <div class="mix category-2 col-md-3 col-sm-6">
+                    <div class="thumb-p">
+                        <img src="{% static 'website/images/invisalign.png' %}" alt="">
+                        <div class="overlay-p">
+                            <a href="{% static 'website/images/invisalign.png' %}" data-rel="lightbox"><i class="fa fa-plus"></i></a>
+                        </div>
+                    </div>
+                    <div class="content-p">
+                        <h4>Invisalign<br>
+                        <span style="text-align: center; padding-bottom:0px">Fixing teeth alignment</span></h4>
+                    </div>
+                </div>
+                <div class="mix category-5 col-md-3 col-sm-6">
+                    <div class="thumb-p">
+                        <img src="{% static 'website/images/implant.png' %}" alt="">
+                        <div class="overlay-p">
+                            <a href="{% static 'website/images/implant.png' %}" data-rel="lightbox"><i class="fa fa-plus"></i></a>
+                        </div>
+                    </div>
+                    <div class="content-p">
+                        <h4>Implant<br>
+                        <span>Artificial tooth placement</span></h4>
+                    </div>
+                </div>
+                <div class="mix category-4 col-md-3 col-sm-6">
+                    <div class="thumb-p">
+                        <img src="{% static 'website/images/dental_check.png' %}" alt="">
+                        <div class="overlay-p">
+                            <a href="{% static 'website/images/dental_check.png' %}" data-rel="lightbox"><i class="fa fa-plus"></i></a>
+                        </div>
+                    </div>
+                    <div class="content-p">
+                        <h4>Dental Check<br>
+                        <span>Checking your dental well-being</span></h4>
+                    </div>
+                </div>
+                <div class="mix category-1 col-md-3 col-sm-6">
+                    <div class="thumb-p">
+                        <img src="{% static 'website/images/laser_treatment.png' %}" alt="">
+                        <div class="overlay-p">
+                            <a href="{% static 'website/images/laser_treatment.png' %}" data-rel="lightbox"><i class="fa fa-plus"></i></a>
+                        </div>
+                    </div>
+                    <div class="content-p">
+                        <h4>Laser Treatment<br>
+                        <span>Usage of Lasers to fix teeth</span></h4>
+                    </div>
+                </div>
+                <div class="mix category-4 col-md-3 col-sm-6">
+                    <div class="thumb-p">
+                        <img src="{% static 'website/images/gingivitischeck.png' %}" alt="">
+                        <div class="overlay-p">
+                            <a href="{% static 'website/images/gingivitischeck.png' %}" data-rel="lightbox"><i class="fa fa-plus"></i></a>
+                        </div>
+                    </div>
+                    <div class="content-p">
+                        <h4>Gingivitis Check<br>
+                        <span>Inspection for inflammation</span></h4>
+                    </div>
+                </div>
+                <div class="mix category-3 col-md-3 col-sm-6">
+                    <div class="thumb-p">
+                        <img src="{% static 'website/images/crown_and_bridge.png' %}" alt="">
+                        <div class="overlay-p">
+                            <a href="{% static 'website/images/crown_and_bridge.png' %}" data-rel="lightbox"><i class="fa fa-plus"></i></a>
+                        </div>
+                    </div>
+                    <div class="content-p">
+                        <h4>Crown and Bridge<br>
+                        <span>Fixing damaged teeth</span></h4>
+                    </div>
+                </div>
+                <div class="mix category-2 col-md-3 col-sm-6">
+                    <div class="thumb-p">
+                        <img src="{% static 'website/images/braces.png' %}" alt="">
+                        <div class="overlay-p">
+                            <a href="{% static 'website/images/braces.png' %}" data-rel="lightbox"><i class="fa fa-plus"></i></a>
+                        </div>
+                    </div>
+                    <div class="content-p">
+                        <h4>Braces<br>
+                        <span>Using braces to align teeth</span></h4>
+                    </div>
+                </div>
+                <div class="mix category-6 col-md-3 col-sm-6">
+                    <div class="thumb-p">
+                        <img src="{% static 'website/images/scaling teeth.png' %}" alt="">
+                        <div class="overlay-p">
+                            <a href="{% static 'website/images/scaling teeth.png' %}" data-rel="lightbox"><i class="fa fa-plus"></i></a>
+                        </div>
+                    </div>
+                    <div class="content-p">
+                        <h4>Scaling Teeth<br>
+                        <span>Removal of plaque and tartar</span></h4>
+                    </div>
+                </div>
+                <div class="mix category-3 col-md-3 col-sm-6">
+                    <div class="thumb-p">
+                        <img src="{% static 'website/images/tooth_filling.png' %}" alt="">
+                        <div class="overlay-p">
+                            <a href="{% static 'website/images/tooth_filling.png' %}" data-rel="lightbox"><i class="fa fa-plus"></i></a>
+                        </div>
+                    </div>
+                    <div class="content-p">
+                        <h4>Tooth filling</br>
+                        <span>Restoring missing tooth structure</span></h4>
+                    </div>
+                </div>
+                <div class="mix category-3 col-md-3 col-sm-6">
+                    <div class="thumb-p">
+                        <img src="{% static 'website/images/root_canal.png' %}" alt="">
+                        <div class="overlay-p">
+                            <a href="{% static 'website/images/root_canal.png' %}" data-rel="lightbox"><i class="fa fa-plus"></i></a>
+                        </div>
+                    </div>
+                    <div class="content-p">
+                        <h4>Root Canal</br>
+                        <span>Removal of infection and cleaning the inside of root canal</span></h4>
+                    </div>
+                </div>
+                <div class="mix category-5 col-md-3 col-sm-6">
+                    <div class="thumb-p">
+                        <img src="{% static 'website/images/denture.png' %}" alt="">
+                        <div class="overlay-p">
+                            <a href="{% static 'website/images/denture.png' %}" data-rel="lightbox"><i class="fa fa-plus"></i></a>
+                        </div>
+                    </div>
+                    <div class="content-p">
+                        <h4>Denture</br>
+                        <span>Removable replacement for missing teeth</span></h4>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+  <div style="background-color:black;"class="fourth-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <h2 style="color:  #bfa04a;"> Want to Come to Our Clinic?</h2>
+                    <a href="contact.html" style="color:white">(BE THERE RIGHT NOW)</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="site-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <ul class="social">
+                        <li class="twitter"><a target="_blank"href="https://twitter.com" class="fa fa-twitter"></a></li>
+                        <li class="facebook"><a target="_blank"href="https://facebook.com" class="fa fa-facebook"></a></li>
+                        <li class="rss"><a id='bottom' href="#bottom" class="fa fa-phone"></a></li>
+                        <li class="linkedin"><a id='bottom' href="#bottom" class="fa fa-clock-o"></a></li>
+                    </ul>
+                    <p style="color:white;">Copyright &copy; 2021 KHS CD</p>
+                </div>
+            </div>
+        </div>
+        <div style=" background-size: cover;background-color:#6d6d6d; font-family:'Julius Sans One','sans-serif';"><p style="text-align: center;padding-top: 0px; color: white;"><i class="fa fa-phone" style="font-size: 1.5em; color:white;" aria-hidden="true"></i>&nbsp; &nbsp;09405334433, 09405334422 &nbsp;&nbsp; <i class="fa fa-envelope" aria-hidden="true"></i>&nbsp;&nbsp; citydentalmm.21@gmail.com&nbsp; &nbsp;&nbsp;<i class="fa fa-clock-o" aria-hidden="true"></i> &nbsp; Mon to Sun.... 9AM to 5PM</p></div>
+    </footer>
+
+    <script src="{% static 'website/}js/vendor/jquery-1.10.1.min.js' %}"></script>
+    <script src="{% static 'website/js/bootstrap.min.js' %}"></script>
+    <script src="{% static 'website/js/plugins.js' %}"></script>
+    <script src="{% static 'website/js/main.js' %}"></script>
+    
+</body>
+</html>
