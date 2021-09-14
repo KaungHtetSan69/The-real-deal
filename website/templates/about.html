@@ -96,10 +96,15 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-8 col-md-offset-2">
-                    <div class="video-holder" style="background: url('{% static 'website/images/gold2.jpg' %}'); border-radius: 10px; padding: 15px">
-                         <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/565264819?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" 
-                        width = "860" height="480"title="Intro to City Dental" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
-                    </div>
+                    <center>
+                    <div class="video-holder" style="background: url({% static 'website/images/gold2.jpg' %}); border-radius: 10px; padding: 25px">
+                         <div style="position:relative;">
+                            <video width=695height= 380 controls="">
+                             <source src="{% static 'website/images/vid.mp4'%}" type="video/mp4">
+                         </video>
+                         </div>
+                     </div>
+                    </center>
                 </div>
             </div>
         </div>
