@@ -1274,6 +1274,25 @@ button.button,
   background: url(../images/BG.png) no-repeat top center;
   background-size: cover;
 }
+.video-holder {
+  position: relative;
+}
+
+.video-holder object,
+.video-holder embed,
+.video-holder iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.video-holder {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+}
+
 /* ==========================================================================
    Media Queries
    ========================================================================== */
