@@ -62,11 +62,6 @@ textarea {
     flex: 33.33%;
   }
 }
-@media screen and (max-width: 960px){
-  .map-holder iframe{
-    width: 350px;
-  }
-}
 
 @media screen and (max-width:768px) {
   .gallery-section .image{
