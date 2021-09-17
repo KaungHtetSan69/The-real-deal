@@ -62,26 +62,8 @@ textarea {
     flex: 33.33%;
   }
 }
-.container {
-  position: relative;
-  overflow: hidden;
-  width: 100%;
-  padding-top: 68.00%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
-}
 
 /* Then style the iframe to fit in the container div with full height and width */
-@media screen and (max-device-width:768px){
-.responsive-iframe{
-width:300px;
-height:auto;
-}
-}
-@media screen and (max-device-width:768px){
-.map-holder{
-width:300px;
-height:auto;
-}
-}
 
 @media screen and (max-width:768px) {
   .gallery-section .image{
