@@ -70,13 +70,13 @@ textarea {
 }
 
 /* Then style the iframe to fit in the container div with full height and width */
-@media screen and (max-width:768px){
+@media screen and (max-device-width:768px){
 .responsive-iframe{
 width:300px;
 height:auto;
 }
 }
-@media screen and (max-width:768px){
+@media screen and (max-device-width:768px){
 .map-holder{
 width:300px;
 height:auto;
