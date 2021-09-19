@@ -1109,6 +1109,7 @@ button.button,
   background: rgba(250, 250, 250, 0.7);
   border: 1px solid #999;
   color: #777;
+  border-radius:10px;
 }
 .contact fieldset input:focus,
 .contact fieldset textarea:focus {
