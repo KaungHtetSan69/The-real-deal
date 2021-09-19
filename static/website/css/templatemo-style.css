@@ -366,7 +366,8 @@ label {
   text-transform: capitalize;
 }
 .responsive {
-  max-width: 100%;
+display:block;
+  width: 100%;
   height: auto;
 }
 /* Clearfix for the .slides element */
@@ -466,6 +467,9 @@ html[xmlns] .slides {
   line-height: 1;
   display: inline-block;
   content: '\f001';
+}
+.image79{
+width:50%
 }
 .flex-direction-nav a.flex-next:before {
   content: '\f002';
