@@ -369,6 +369,10 @@ label {
 display:block;
   width: 100%;
   height: auto;
+  margin-left:0px;
+  margin_right:0px;
+  padding-left:0px;
+  padding-right:0px;
 }
 /* Clearfix for the .slides element */
 .slides:after {
@@ -469,7 +473,8 @@ html[xmlns] .slides {
   content: '\f001';
 }
 .image79{
-width:50%
+margin:0px;
+padding:0px;
 }
 .flex-direction-nav a.flex-next:before {
   content: '\f002';
