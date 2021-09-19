@@ -365,6 +365,10 @@ label {
 .flex-pauseplay span {
   text-transform: capitalize;
 }
+.responsive {
+  max-width: 100%;
+  height: auto;
+}
 /* Clearfix for the .slides element */
 .slides:after {
   content: ".";
