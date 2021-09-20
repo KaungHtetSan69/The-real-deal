@@ -813,16 +813,9 @@ h6 {
 .navbar-default .navbar-nav > li:first-child {
   border-left: 2px solid darkgoldenrod;
 }
-.navbar-default{
+.navbar-default .navbar-brand {
   text-transform: uppercase;
   font-size: 32px;
-  font-weight: 700;
-  color:  #F0E68C;
-  padding-top: 25px;
-  padding-bottom: 25px;
-}
-.navbar-brand a{
-  font-size: 20px;
   font-weight: 700;
   color:  #F0E68C;
   padding-top: 25px;
@@ -1267,6 +1260,12 @@ button.button,
   .slider-button {
     display: none;
   }
+}
+@media (max-width: 992px){
+    .why img{
+    height:75px;
+    width:auto;
+    }
 }
 /*  Small devices (tablets, 768px and up)  */
 @media (max-width: 768px) {
