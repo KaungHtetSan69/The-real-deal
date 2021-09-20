@@ -1264,7 +1264,7 @@ button.button,
 .why{
   margin-top:7px;
   width:auto;
-   height:50px;
+  height:50px;
 }
 @media screen and (max-width:992px) {
     .why{
