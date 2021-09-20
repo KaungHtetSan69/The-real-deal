@@ -1266,7 +1266,7 @@ button.button,
   width:auto;
   height:50px;
 }
-@media screen and (max-width:775px) {
+@media screen and (max-width:768px) {
     .why{
      margin-top: 20px;
      margin-left: 20px;
