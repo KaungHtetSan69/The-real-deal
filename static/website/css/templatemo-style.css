@@ -821,7 +821,7 @@ h6 {
   padding-top: 25px;
   padding-bottom: 25px;
 }
-.navbar-brand{
+.navbar-brand a{
   font-size: 20px;
   font-weight: 700;
   color:  #F0E68C;
