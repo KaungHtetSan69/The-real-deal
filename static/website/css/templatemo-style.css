@@ -1261,10 +1261,15 @@ button.button,
     display: none;
   }
 }
-@media (max-width: 992px){
-    .why img{
-    height:75px;
-    width:auto;
+.why{
+  margin-top:7px;
+  width:auto;
+   height:50px;
+}
+@media screen and (max-width:992px) {
+    .why{
+     margin-top: 20px;
+     margin-left: 20px;
     }
 }
 /*  Small devices (tablets, 768px and up)  */
