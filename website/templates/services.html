@@ -1,5 +1,4 @@
 {%load static%}
-
 <!DOCTYPE html>
 <!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]><html class="no-js lt-ie9 lt-ie8"> <![endif]-->
@@ -10,27 +9,25 @@
   (function(b,o,n,g,s,r,c){if(b[s])return;b[s]={};b[s].scriptToken="XzU2OTQyMTcxNA";b[s].callsQueue=[];b[s].api=function(){b[s].callsQueue.push(arguments);};r=o.createElement(n);c=o.getElementsByTagName(n)[0];r.async=1;r.src=g;r.id=s+n;c.parentNode.insertBefore(r,c);})(window,document,"script","https://cdn.oribi.io/XzU2OTQyMTcxNA/oribi.js","ORIBI");
 </script>
     <meta charset="utf-8">
-    <title>CD's Services</title>
-    <meta name="description" content="Services of City Dental">
+     <meta name="description" content="City Dental - the best and greatest of all clinics in Yangon.">
+    <title>City Dental</title>
+    <meta name="description" content="">
     <meta name="viewport" content="width=device-width">
-    <!-- 
-    Stone Template
-    http://www.templatemo.com/preview/templatemo_452_stone
-    -->
-    <!-- Bootstrap Stylesheet -->
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="{% static 'website/css/bootstrap.min.css' %}">
-    <link rel="icon" href="{% static 'website/images/Logobg.png' %}">
-    
+
     <!-- FontAwesome Icons -->
     <link rel="stylesheet" href="{% static 'website/css/font-awesome.min.css' %}">
-    
+
     <!-- Normailize Stylesheet -->
     <link rel="stylesheet" href="{% static 'website/css/normalize.min.css' %}">
 
     <!-- Main Styles -->
     <link rel="stylesheet" href="{% static 'website/css/templatemo-style.css' %}">
 
-    <script src="{% static 'website/js/vendor/modernizr-2.6.2.min.js'%}"></script>
+    <link rel="icon" href="{% static 'website/images/Logobg.png' %}">
+
+    <script src="js/vendor/modernizr-2.6.2.min.js"></script>
     <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-200808047-1">
 </script>
@@ -43,38 +40,28 @@
 </script>
 
 </head>
-<body style="background-color: black;">
-    <div class="loader-wrapper1">
-      <span class="loader"><span class="loader-inner"></span></span>
-    </div>
-    <script>
-        $(window).on("load",function(){
-          $(".loader-wrapper1").fadeOut("slow");
-        });
-    </script>
+<body  style="background-color: black;"class="loading">
     <!--[if lt IE 7]>
     <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
     <![endif]-->
 
     <!-- HEADER -->
     <div class="site-header">
-        <div class="container">
+        <div class="container" style="background">
             <div class="row">
                 <nav class="navbar navbar-default navbar-static-top">
-                    <div class="navbar-header">
+                    <div class="navbar-header"id="navbar">
                         <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#main-menu">
                             <span class="sr-only">Toggle navigation</span>
                             <i class="fa fa-bars"></i>
                         </button>
-                        <div class="why" style="width: 50px;"><img style="width:100%; height:auto;" src="{% static 'website/images/Logobg.png'%}"></div>
-                    </div>
+                            <div class="why" style="width: 50px;"><img style="width:100%; height:auto;" src="{% static 'website/images/Logobg.png'%}" alt=""></div>                    </div>
                     <div class="collapse navbar-collapse" id="main-menu">
                         <ul class="nav navbar-nav navbar-right">
                             <li><a href="index.html">Home</a></li>
                             <li><a href="about.html">About</a></li>
                             <li><a href="services.html">Services</a></li>
-                           <li><a href="gallery.html">Gallery</a></li>
-
+                            <li><a href="gallery.html">Gallery</a></li>
                             <li><a href="contact.html">Contact</a></li>
                         </ul>
                     </div>
@@ -290,7 +277,7 @@
         <div style="margin-left:30px; margin-right:30px; background-size: cover;background-color:#6d6d6d; font-family:'Julius Sans One','sans-serif';"><p style="text-align: center;padding-top: 0px; color: white;"><i class="fa fa-phone" style="font-size: 1.5em; color:white;" aria-hidden="true"></i>&nbsp; &nbsp;09405334433, 09405334422 &nbsp;&nbsp; <i class="fa fa-envelope" aria-hidden="true"></i>&nbsp;&nbsp; citydentalmm.21@gmail.com&nbsp; &nbsp;&nbsp;<i class="fa fa-clock-o" aria-hidden="true"></i> &nbsp; Mon to Sun.... 9AM to 5PM</p></div>
     </footer>
 
-    <script src="{% static 'website/}js/vendor/jquery-1.10.1.min.js' %}"></script>
+    <script src="{% static 'website/js/vendor/jquery-1.10.1.min.js' %}"></script>
     <script src="{% static 'website/js/bootstrap.min.js' %}"></script>
     <script src="{% static 'website/js/plugins.js' %}"></script>
     <script src="{% static 'website/js/main.js' %}"></script>
