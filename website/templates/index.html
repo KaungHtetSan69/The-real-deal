@@ -27,7 +27,7 @@
 
     <link rel="icon" href="{% static 'website/images/Logobg.png' %}">
 
-    <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+    <script src="{% static 'website/js/vendor/modernizr-2.6.2.min.js' %}"></script>
     <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-200808047-1">
 </script>
@@ -80,7 +80,8 @@
                     <img src="{% static 'website/images/slide8.png' %}" alt="">
                     <div class="slider-caption">
                         <div class="title">
-                            <h2 style="color:white;font-size:50px;">CITY DENTAL</h2>
+                            <h2 style="color:white;font-size:20px;">Welcome to</h2>
+                            <h2 style="color:white;font-size:60px;">CITY DENTAL</h2>
                         </div>
                         <a href="about.html" class="slider-button">About us</a>
                     </div>
@@ -90,14 +91,14 @@
                     <img src="{% static 'website/images/slide5.png' %}" alt="">
                     <div class="slider-caption">
                         <div class="title">
-                            <h2 style="color:white;">A smile is the prettiest</h2>
+                            <h2 style="color:white; font-size:32px;">A smile is the prettiest</h2>
                             <h2 style="color:white;">thing you can wear</h2>
                         </div>
                         <a href="about.html" class="slider-button">Read More</a>
                     </div>
                 </li>
             </ul>
-        </div>   
+        </div>
     </div> <!-- .site-slider -->
     
 
@@ -105,12 +106,12 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
-                    <h3 style="margin-top:50px;color:#bfa04a ;">Exclusive Feel</h3>
-                    <p style="line-height: 2.0;color:   #F0E68C">Opened in 2021, City Dental aims to be more than just a clinic. When we treat our patients, we always makes sure they exit with a huge smile. This clinic was also built with luxury in mind, so patients can experience that high-standard feel as soon as they enter.
+                    <h3 style="margin-top:50px;margin-left: 20px;color:#bfa04a ; font-size: 35px;">Exclusive Feel</h3>
+                    <p style="line-height: 2.0;color:   #F0E68C; margin-left: 20px;font-size:15px;">Opened in 2021, City Dental aims to be more than just a clinic. When we treat our patients, we always makes sure they exit with a huge smile. This clinic was also built with luxury in mind, so patients can experience that high-standard feel as soon as they enter.
                   <br><br>2021 ခုနှစ်တွင် စတင်ခဲ့ သော City Dental Center ကို ပုံမှန်သွားဆေးခန်းတစ်ခုဆိုတာထက်မက ရည်ရွယ်ဖွင့်လှစ်ထားပါသည်။ ကျွန်ုပ်တို့လူနာများ ကုသမှု ပြီးတိုင်း သူတို့ သေချာပေါက် ကျေနပ်လှပတဲ့အပြုံးတွေနဲ့ ပြန်သွားရမှာအသေအချာပါပဲ။ ဤဆေးခန်းကိုလည်းစိတ်ထဲတွင် အဆင့်မြင့်ဇိမ်ခံကားထဲရောက်ရှိနေသကဲ့သို့ခံစားနိုင်အောင်အဆင့်မြင့်ပစ္စည်းများဖြင့်ထည့်သွင်းတည်ဆောက်ထားပါသည်။</p>
                 </div>
                 <div class="col-md-6 text-center">
-                    <img src="{% static 'website/images/kid.jpg'%}" alt="" style="border-radius:10px; margin-top:30px">
+                    <img src="{% static 'website/images/kid.jpg'%}" alt="" style="border-radius:10px; margin-top:40px">
                 </div>
 
             </div>
@@ -127,19 +128,19 @@
     <div class="col-sm-3">
       <i class="fa fa-smile-o"></i>
       <h2 style="font-weight: 600; font-size: 30px;" data-max="90">% </br>
-      <a style="color:  #F0E68C; font-size: 17px;">Happy Customers</a></h2>
+      <a style="color:  #F0E68C; font-size: 20px;">Happy Customers</a></h2>
     </div>
     <div class="col-sm-3">
       <i class="fa fa-medkit"></i>
-      <h2 style="font-weight: 600; font-size: 30px;" data-max="65">% </br><a style="color:  #F0E68C; font-size: 17px;">Skilled Staff</a></h2>
+      <h2 style="font-weight: 600; font-size: 30px;" data-max="65">% </br><a style="color:  #F0E68C; font-size: 20px;">Skilled Staff</a></h2>
     </div>
     <div class="col-sm-3">
       <i class="fa fa-certificate"></i>
-      <h2 style="font-weight: 600; font-size: 30px;" data-max="98">% </br><a style="color:  #F0E68C; font-size: 17px;">Beauty</a></h2>
+      <h2 style="font-weight: 600; font-size: 30px;" data-max="98">% </br><a style="color:  #F0E68C; font-size: 20px;">Beauty</a></h2>
     </div>
     <div class="col-sm-3">
       <i class="fa fa-user-md"></i>
-      <h2 style="font-weight: 600; font-size: 30px;" data-max="100" id="test">% </br><a style="color:   #F0E68C; font-size: 17px;">Experienced Dentists</a></h2>
+      <h2 style="font-weight: 600; font-size: 30px;" data-max="100" id="test">% </br><a style="color:   #F0E68C; font-size: 20px;">Experienced Dentists</a></h2>
     </div>
   </div>
 </div>        </div>
@@ -148,17 +149,17 @@
 
 
     <div class="third-section">
-        <div style="background-image:url('{% static 'website/images/gray.jpg' %}');border-radius:20px; padding-top:30px;" class="container">
+        <div style="border-radius:20px; padding-top:30px;" class="container">
             <div class="row">
                 <div class="col-md-6">
-                    <h2 style="color:#bfa04a; text-shadow: 1px 1px;">&nbsp; &nbsp;Clean Atmosphere</h2>
-                    <p style="padding-left:15px;">Our clinic is very clean as our skilled staff perseveres to clean this clinic everyday so that there is no dirt even in the smallest corner. The whole place, including even the pantry and the toilets is spotless.
-                    <br><br>ဆေးခန်းနှင့်ဝန်းကျင်သန့်ရှင်းရေးအတွက်လည်း ကျွန်နိုပ်တို့၏ ကျွမ်းကျင်ဝန်ထမ်းများမှ ကုသခန်းများ မှ စ နောက်ဖေး အိမ်သာများ ထိ နေရာလပ်မကျန် အမြဲကြိုးစား သန့်ရှင်းလျက်ရှိပါသည်
+                    <h2 style="color:#bfa04a;text-align:center; text-shadow: 1px 1px; font-family: 'Inter', Sans-serif; font-size:25px; margin-top:20px;">&nbsp; &nbsp;Clean Atmosphere</h2>
+                    <p style=" line-height:200%;padding-left:25px; text-align:center; font-family: 'Inter', Sans-serif; font-size:15px;">Our clinic is very clean as our skilled staff perseveres to clean this clinic everyday so that there is no dirt even in the smallest corner. The whole place, including even the pantry and the toilets is spotless.
+                    <br><br>ဆေးခန်းနှင့်ဝန်းကျင်သန့်ရှင်းရေးအတွက်လည်းကျွန်နိုပ်တို့၏ကျွမ်းကျင်ဝန်ထမ်းများမှကုသခန်းများမှစနောက်ဖေးအိမ်သာများထိနေရာလပ်မကျန်အမြဲကြိုးစားသန့်ရှင်းလျက်ရှိပါသည်။
 </p>
                 </div>
                 <div class="col-md-6">
-                    <h2 style="color:#bfa04a; text-shadow: 1px 1px;">&nbsp; &nbsp;Friendly Nurses</h2>
-                    <ol class="no-color">
+                    <h2 style="color:#bfa04a; text-shadow: 1px 1px; font-family: 'Inter', Sans-serif;">&nbsp; &nbsp;Friendly Nurses</h2>
+                    <ol class="no-color" style=" font-family: 'Inter', Sans-serif;">
                         <li>Very Helpful.</li>
                         <li>Punctual.</li>
                         <li>Patient.</li>
@@ -167,52 +168,49 @@
                     </ol>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-md-6">
-                    <h2 style="color:#bfa04a; text-shadow: 1px 1px;"> &nbsp; &nbsp;Qualified and Experienced Dentists</h2>
+                        <div class="row">
+            <div class="col-md-6 col-md-push-6">
+                    <h2 style="margin-top:50px;color:#bfa04a;text-align:center; text-shadow: 1px 1px; font-family: 'Inter', Sans-serif;font-size:25px;">Top of the Line Equipment</h2>
+                    <div style="text-align:center;line-height:400%">
+                        <p>
+                            <h4 style="color:   #F0E68C; font-family: 'Inter', Sans-serif; font-size:20px;">Microscope</h4>
+                        </p>
+                        <p>
+                            <h4 style=" font-family: 'Inter', Sans-serif;color:   #F0E68C; font-size:20px;">Dental Chairs</h4>
+                        </p>
+
+
+                        <p>
+                            <h4 style="color:   #F0E68C; font-family: 'Inter', Sans-serif; font-size:20px;">Scanner</h4>
+                        </p>
+
+
+                        <p>
+                            <h4 style="color:   #F0E68C; font-family: 'Inter', Sans-serif; font-size:20px;">Branded Equipment</h4>
+                        </p>
+
+
+                        <p>
+                            <h4 style="color:   #F0E68C; font-family: 'Inter', Sans-serif; font-size:20px;">Autoclave</h4>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-md-pull-6">
+                    <h2 style="color:#bfa04a; text-shadow: 1px 1px;  font-family: 'Inter', Sans-serif;"> &nbsp; &nbsp;Qualified and Experienced Dentists</h2>
                     <ol>
                         <li>
-                            <h4 style="color:   #F0E68C;">Dr Aung Kyaw Sein(BDS, Yangon)</h4>
-                            <p>His family line has been dentist for five generations straight. Since his first clinic opened, he has received a lot of certificates, including ones from USA, Hong Kong etc.<br>
+                            <h4 style="color:   #F0E68C;  font-family: 'Inter', Sans-serif; margin-top:20px;">Dr Aung Kyaw Sein(BDS, Yangon)</h4>
+                            <p style=" font-family: 'Inter', Sans-serif;  font-size:15px; margin-top:20px;">His family line has been dentist for five generations straight. Since his first clinic opened, he has received a lot of certificates, including ones from USA, Hong Kong etc.<br>
                             မျိုရိုးစဉ်ဆက်သွားဆရာဝန်ဖြစ်ခဲ့သည်မှာမျိုးဆက်ငါးဆက်တိုင်အောင်ရှိပြီဖြစ်သည်။ သူသည်ပထမဆုံးဆေးခန်းဖွင့်ကတည်းကအမေရိကန်၊ ဟောင်ကောင်စသည့်မှလက်မှတ်များအပါအ၀င်လက်မှတ်များစွာကိုရရှိခဲ့သည်</p>
                         </li>
                         <li>
-                            <h4 style="color:   #F0E68C;">Dr Sandar Myint(BDS,Yangon)</h4>
-                            <p>Dr Sandar Myint is a very skillful dentist who has been in this field for over 18 years. She is very patient when consulting with the patients. She is especially specialized in orthodontics.<br>ဒေါက်တာစန္ဒာမြင့်သည်အလွန်ကျွမ်းကျင်သောသွားဆရာဝန်ဖြစ်သည်။ သူမသည်လူနာများနှင့်တိုင်ပင်သောအခါအလွန်စိတ်ရှည်ပါသည်။ သူမသည်အထူးသဖြင့်သွားညှိကုပညာအထူးကျွမ်းကျင်သည်။
+                            <h4 style="color:   #F0E68C; font-family: 'Inter', Sans-serif;">Dr Sandar Myint(BDS,Yangon)</h4>
+                            <p style=" font-family: 'Inter', Sans-serif;">Dr Sandar Myint is a very skillful dentist who has been in this field for over 18 years. She is very patient when consulting with the patients. She is especially specialized in orthodontics.<br>ဒေါက်တာစန္ဒာမြင့်သည်အလွန်ကျွမ်းကျင်သောသွားဆရာဝန်ဖြစ်သည်။ သူမသည်လူနာများနှင့်တိုင်ပင်သောအခါအလွန်စိတ်ရှည်ပါသည်။ သူမသည်အထူးသဖြင့်သွားညှိကုပညာအထူးကျွမ်းကျင်သည်။
 </p>
                         </li>
                         <li>
-                            <h4 style="color:   #F0E68C">Other Dentists </h4>
-                            <p>They are qualified dentists who have worked tirelessly alongside the dentists mentioned above for many years.</p>
-                        </li>
-                    </ol>
-                </div>
-                <div class="col-md-6" >
-                    <h2 style="color:#bfa04a; text-shadow: 1px 1px;">Top of the Line Equipment</h2>
-                    <ol>
-                        <li>
-                            <h4 style="color:   #F0E68C;">Microscope</h4>
-                            <ol class="no-color">
-                                <li>We use microscopes to get finer details of your teeth.</li>
-                                <li>High-Quality</li>
-                            </ol>
-                        </li>
-                        <li>
-                            <h4 style="color:   #F0E68C;">Dental Chairs</h4>
-                            <ol class="no-color">
-                                <li>Comfortable</li>
-                                <li>Made in Germany</li>
-                                <li>Soft</li>
-                            </ol>
-                        </li>
-                        <li>
-                            <h4 style="color:   #F0E68C;">Scanner</h4>
-                        </li>
-                        <li>
-                            <h4 style="color:   #F0E68C;">Branded Equipment</h4>
-                        </li>
-                        <li>
-                            <h4 style="color:   #F0E68C;">Autoclave</h4>
+                            <h4 style="color:   #F0E68C; font-family: 'Inter', Sans-serif;">Other Dentists </h4>
+                            <p style=" font-family: 'Inter', Sans-serif;">They are qualified dentists who have worked tirelessly alongside the dentists mentioned above for many years.</p>
                         </li>
                     </ol>
                 </div>

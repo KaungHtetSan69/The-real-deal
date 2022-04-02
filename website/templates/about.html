@@ -25,8 +25,7 @@
     <style>
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,800&display=swap');
 </style>
-    
-    <!-- FontAwesome Icons -->
+<link href='https://fonts.googleapis.com/css?family=Cinzel Decorative' rel='stylesheet'>    <!-- FontAwesome Icons -->
     <link rel="stylesheet" href="{% static 'website/css/font-awesome.min.css' %}">
     
     <!-- Normailize Stylesheet -->
@@ -82,37 +81,47 @@
         </div>
     </div> <!-- .site-header -->
 
-
-    <div class="page-h promotion">
+    <div class="page-h">
         <div class="container">
             <div class="row">
                 <div class="col-md-12 text-center">
-                    <h3>About CD</h3>
+                    <h3>About</h3>
                 </div>
             </div>
         </div>
     </div>
-      <div class="video-featured" style="margin-bottom:100px;">
+    <div class="filter">
         <div class="container">
             <div class="row">
-                <div class="col-md-6">
-                    <iframe style="border:10px inset #D7BE69; border-radius:10px; margin-top:10px; max-width:500px;" width="90%" height="380" frameborder="0" src="https://www.youtube.com/embed/94km0sesXhM" allowfullscreen></iframe>
+                <div class="col-md-12 text-center">
 
                 </div>
-                <div class="col-md-6 text-center">
-                    <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FCityDentalAOIC&tabs=timeline&width=500&height=600&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" style="margin-left:30px;margin-top:50px;width:90%; height:380px; max-width:500px; border-radius:10px;border:10px outset #D7BE69;overflow:hidden; " scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
-                </div>
-
             </div>
         </div>
     </div>
+      <div class="video-featured">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 col-md-offset-2">
+                    <center>
+                    <div class="video-holder" style="background:url('{% static 'website/images/gold2.jpg' %}'); border-radius: 10px; padding: 15px">
+                         <div style="position:relative;">
+<iframe width="560" height="415" src="https://www.youtube.com/embed/94km0sesXhM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                             <source src="images/vid.mp4" type="video/mp4">
+                         </video>
+                             </div>
+                     </div>
+                 </center>
+                    </div>
+                </div>
+            </div>
+        </div>
 
 
     <div class="image79" style="background-color: black; margin-top: -200px; margin-bottom: 0px;"><center><img  class = "responsive" style="max-width:500px;display: block; background-size: cover;" src="{% static 'website/images/Bruh1.png' %}"></center></div>
     <br><br>
 
 
-    <div class="promotion-s">
+    <div class="promotion-s" style="padding-bottom:0px; margin-bottom:40px;">
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
@@ -121,8 +130,8 @@
                             <img style="height: 200px; width:150px;" src="{% static 'website/images/pagoda2.png' %}" alt="">
                         </div>
                         <div class="product-content" style="padding-left:30px;">
-                            <h3 style="color:#bfa04a;">History</h3>
-                            <p style="color:#F0E68C; line-height:30px;">The dentists of our clinic has opened many dental clinics since 2000. These include Latha Dental Clinic, Sandar Clinic as well as Summit Clinic.<br><br><br></p>
+                            <h3 style="color:#bfa04a; font-size:25px;">History</h3>
+                            <p style="color:#F0E68C; line-height:30px; font-size:15px;">The dentists of our clinic has opened many dental clinics since 2000. These include Latha Dental Clinic, Sandar Clinic as well as Summit Clinic.<br><br><br></p>
                         </div>
                     </div>
                 </div>
@@ -132,54 +141,53 @@
                             <img src="{% static 'website/images/certificate.png'%}" alt="">
                         </div>
                         <div class="product-content">
-                            <h3 style="color:#bfa04a;">Certificates</h3>
-                            <p style="color:#F0E68C; line-height:30px;">Certificates earned by our fellow dentists include BDS Yangon, FICD, FICCDE. <br><br><br><br></p>
+                            <h3 style="color:#bfa04a; font-size:25px;">Certificates</h3>
+                            <p style="color:#F0E68C; line-height:30px; font-size:15px;">Certificates earned by our fellow dentists include BDS Yangon, FICD, FICCDE. <br><br><br><br></p>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
- <div class="team-area" style="background-color:black; padding-top:30px; font-family:'Julius Sans One','sans-serif;';">
+ <div class="team-area" style="background-color:black; padding-top:0px;">
   <div class="container">
- <div style="background-image:url('{% static 'website/images/gray.jpg' %}'); border-radius:20px; padding:0px 100px 0px;" class="row">
+ <div style="border-radius:20px; padding:0px 100px 0px;" class="row">
      <div class="col-md-12">
         <div class="section-title text-center">
-          <center><img src="{% static 'website/images/cooltext.png'%}"></center>
+          <center><h2 style="font-size:50px; color: #bfa04a;    font-family: 'Cinzel Decorative';">Founders</h2> </center>
         </div>
       </div>
 
+            <!--== Single Team Item ==-->
+      <div class="col-md-6" style="padding-top: 40px; padding-bottom: 40px;">
+        <div class="single-team">
+          <div class="team-img">
+            <img src = "{% static 'website/images/dad.jpg'%}" alt="" class="img-responsive">
+          </div>
+          <div class="team-content">
+            <div class="team-info">
+              <h3 style="padding-top:25px; font-size:22px;font-family:'Quicksand'; font-weight:bold;">Dr. Aung Kyaw Sein</h3>
+            </div>
+          </div>
+        </div>
+      </div>
       <!--== Single Team Item ==-->
       <div class="col-md-6" style="padding-top: 40px; padding-bottom: 40px;">
         <div class="single-team">
           <div class="team-img">
-            <img src="{% static 'website/images/dad.jpg'%}" alt="" class="img-responsive">
+            <img src = "{% static 'website/images/mommy.jpg'%}" alt="" class="img-responsive">
           </div>
           <div class="team-content">
             <div class="team-info">
-              <h3>Dr Aung Kyaw Sein</h3>
-                <b><p style="font-size:11px;">BDS(YGN) FICD(USA) FICCDE(Hong Kong) Implantologist, Microscopic Endodontic</p></b>
+              <h3 style="padding-top:25px; font-size:22px;font-family:'Quicksand'; font-weight:bold;">Dr. Sandar Myint</h3>
             </div>
           </div>
         </div>
       </div>
-      <!--== Single Team Item ==-->
-      <div class="col-md-6" style="padding-top: 40px; padding-bottom: 100px;">
-        <div class="single-team">
-          <div class="team-img">
-            <img src="{% static 'website/images/mommy.jpg' %}" style="height: auto; width:100%;" alt="" class="img-responsive">
-          </div>
-          <div class="team-content">
-            <div class="team-info">
-              <h3>Dr Sandar Myint</h3>
-                <b><p style="font-size:11px;">BDS(YGN) FICD(USA) FICCDE(Orthodontist) Certificate in Clinical Orthodontics (POS)</p></b>
-            </div>
-          </div>
-        </div>
       </div>
-    </div>
-      </div>
+  </div>
 </div>
+
 
      <div style="background-color:black;"><br><br><br></div>
 
