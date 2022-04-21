@@ -276,7 +276,7 @@ label {
   overflow: hidden;
   bottom: 0;
   transition: all .4s;
-  background: silver;
+  background: black;
   z-index:5;
 }
 .team-info {
@@ -284,7 +284,7 @@ label {
   transition: all .5s;
 }
 .single-team .team-content .team-info h3 {
-  color: black;
+  color: #bfa04a;
   font-size: 16px;
   margin: 5px;
 }
@@ -975,7 +975,7 @@ h6 {
   font-weight: 600;
 }
 .filter {
-  background: url("../images/filterbg.48c2516af5eb.png") no-repeat top center;
+  background: url("../images/contactbg.dc61d0a9ded6.png") no-repeat top center;
   background-size: cover;
   padding: 50px 0;
   margin-top: -60px;
@@ -1123,7 +1123,7 @@ button.button,
   padding-bottom: 100px;
 }
 .video-featured {
-  background: url("../images/bg69.a500494d1220.png") no-repeat top center;
+  background: url("../images/filterbg.6387a79c162e.png") no-repeat top center;
   background-size: cover;
   padding: 160px 0;
   margin-top: -130px;

@@ -252,7 +252,7 @@ label {
   position: relative;
   z-index: 1;
   overflow: hidden;
-  box-shadow:5px 5px 15px silver;
+  box-shadow:5px 5px 15px #bfa04a;
   border-radius: 10px;
 }
 
@@ -972,10 +972,10 @@ h6 {
   font-size: 28px;
   color: #fff;
   text-transform: uppercase;
-  font-weight: 600;
+  font-weight: 400;
 }
 .filter {
-  background: url(../images/filterbg.png) no-repeat top center;
+  background: url(../images/contactbg.png) no-repeat top center;
   background-size: cover;
   padding: 50px 0;
   margin-top: -60px;
